@@ -76,12 +76,10 @@ public class ToDoList {
 	private static boolean verifyUserAction(String action) {
 		System.out.print("\nPress enter if you want to " + action + ", otherwise, press any key and enter: ");
 		String userInput = input.nextLine();
-		if (userInput.trim().equals("")) {
+		if (userInput.trim().equals(""))
 			return true;
-		}
-		else {
+		else
 			return false;
-		}
 	}
 	
 	//If the user doesn't enter anything, it returns, otherwise it adds the string to the global arraylist.
