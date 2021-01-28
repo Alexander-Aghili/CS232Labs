@@ -99,7 +99,7 @@ public class ToDoList {
 		else {
 			System.out.println("\nYour to do list is as follows:");
 			for(int i = 0; i < toDoList.size(); i++) {
-				System.out.println(" " + (i+1) + " " + toDoList.get(i));
+				System.out.println(" " + (i+1) + ". " + toDoList.get(i));
 			}	
 		}
 	}
