@@ -62,7 +62,6 @@ public class ToDoList {
 	
 	//Called when initially run and when the user enters bad commands.
 	private static void commandList() {
-		//Use printf later
 		System.out.println("User Commands are as follow: \n");
 
 		System.out.println("Exit:                 \'exit\'     or 0");
